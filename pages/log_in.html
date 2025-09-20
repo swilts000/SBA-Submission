@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Anime Streamers</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="../style/style.css">
+  <style>
+    .bootWhite{
+        color: whitesmoke;
+    }
+  </style>
+</head>
+<body>
+  <!-- Start of boilerplate -->
+ <nav class="navbar navbar-expand-lg bg-light navbar-light justify-content-around nav_adjustment">
+  <ul class="navbar-nav">
+  <li class="nav-item">
+    <a class="nav-link bootWhite" href="../index.html">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link bootWhite" href="Watch.html">Watch</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link bootWhite" href="contact.html">Contact</a>
+  </li>
+  </li>
+    <li class="nav-item dropdown" style="left: 200%;">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Account
+        </a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item  active" href="#">Log In</a>
+            <a class="dropdown-item" href="create_account.html">Sign Up</a>
+        </div>
+    </li>
+</ul>
+</nav>
+<!-- add stuff here-->
+ <!--Main Jumbotron-->
+     
+    <section class="jumbotron text-center back-gradient-yellow-1">
+      <h2 style="margin-top: 150px;">LOG IN</h2>
+      <!--Main Form Bootstrap-->
+  <p>If you have an account please log In</p>
+  <form action="../pages/submission/thank_you.html" class="needs-validated fCenter">
+    <!--Form input Bootstrap-->
+    <div class="form-group col-5 fCenter">
+      <label for="uname">Sign In:</label>
+      <input type="text" class="form-control text-center" id="uEmail" placeholder="Please Enter User Name or Email" name="uEmail" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <!--Form input Bootstrap-->
+    <div class="form-group col-5 fCenter" >
+      <label for="pwd">Password</label>
+      <input class="form-control text-center" name="text" placeholder="Please Enter Password" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <!--Form input Bootstrap-->
+    <button type="submit" class="btn btn-primary" style="margin-bottom: 130px;">Submit</button>
+  </form>
+    </section>
+<!--End Main Content-->
+</div>
+</div>
+<footer class="footer text-center back-gradient-yellow-1">
+<div class="container" style="margin: bottom 20px; font-size: 40px;">
+  <span class="text-muted">Anime Streamers</span> 
+</div>
+</footer>
+  <!-- End of boilerplate -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+</body>
+</html>

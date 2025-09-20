@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*gradient color schemes*/
+.back-gradient-yellow-1{
+    background: hsla(51, 96%, 50%, 1);
+
+    background: linear-gradient(90deg, hsla(51, 96%, 50%, 1) 30%, hsla(64, 89%, 46%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(51, 96%, 50%, 1) 30%, hsla(64, 89%, 46%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(51, 96%, 50%, 1) 30%, hsla(64, 89%, 46%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FAD607", endColorstr="#D2E00D", GradientType=1 );
+}
+
+.back-gradient-yellow-2{
+    background: linear-gradient(0deg, #96745d, #ad8460, #c39463, #d7a766, #e9ba6c, #f7cf7c, #fde6a5, #fffbe9);
+}
+
+.back-gradient-yellow-peach-1{
+    background: linear-gradient(75deg, #ffe799, #ffd582, #ffc174, #ffac70, #ff9677, #ff8287, #ff709d, #ff61b5);
+}
+
+.back-gradient-yellow-peach-2{
+    background: radial-gradient(circle at 50% 50%, #ffe799, #ffd582, #ffc174, #ffac70, #ff9677, #ff8287, #ff709d, #ff61b5);
+}
+/*used to set a standard size for images on watch.html*/
+.img_resize{
+    width: 180px; 
+    height: 300px;
+    margin: 10px 5px;
+}
+/*centers form elements*/
+.fCenter{
+    display: flex;
+    justify-items: center;
+    display: block;
+}
+/*adjusts navigation*/
+.nav_adjustment{
+    margin-left: 2%;
+}
+/*thank_you.html uses CSS and Flexbox ONLY*/
+.thank_you{
+    display: flex;
+    background: hsla(51, 96%, 50%, 1);
+    background: linear-gradient(90deg, hsla(51, 96%, 50%, 1) 30%, hsla(64, 89%, 46%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(51, 96%, 50%, 1) 30%, hsla(64, 89%, 46%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(51, 96%, 50%, 1) 30%, hsla(64, 89%, 46%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FAD607", endColorstr="#D2E00D", GradientType=1 );
+    background-size: contain;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+container h1{
+    margin: 70px;
+    font-size: 100px;
+}
+Container h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
