@@ -3,10 +3,15 @@ This is an anime watching website. It is designed for the user to be able to cho
 
 Website pages: 
 •	Landing page (index.html)
+
 •	Content page (Watch.html)
+
 •	Contact page (contact.html)
+
 •	Log In page	(log_in.html)
+
 •	Sign up page	(sign_up.html)
+
 •	Thank you page (thank_you.html) Note: Native CSS
 
 Website Pages:
