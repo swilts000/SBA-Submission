@@ -29,9 +29,17 @@
 }
 /*used to set a standard size for images on watch.html*/
 .img_resize{
+    width: 160px; 
+    height: 250px;
+    margin: 3px 5px;
+}
+/*Resizes to fit larger windows*/
+@media screen and (min-width: 1800px) {
+  .img_resize{
     width: 180px; 
     height: 300px;
-    margin: 10px 5px;
+    margin: 4px 7px;
+}
 }
 /*centers form elements*/
 .fCenter{
@@ -65,4 +73,9 @@ container h1{
 Container h3{
     font-size: 30px;
     margin-bottom: 30px;
+}
+
+.row{
+    margin-right: 0;
+    margin-left: 0;
 }
